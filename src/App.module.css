@@ -1,0 +1,24 @@
+.maincontainer {
+  width: 60%;
+  margin-bottom: 20%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 2px solid rgb(200, 196, 196);
+  border-radius: 5px;
+  padding-bottom: 15px;
+  background-color: rgb(196, 244, 252);
+}
+
+.title {
+  background-color: rgb(5, 88, 203);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.city {
+  color: rgb(54, 53, 53);
+  font-size: 25px;
+  text-align: center;
+}

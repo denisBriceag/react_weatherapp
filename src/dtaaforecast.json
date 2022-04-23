@@ -1,0 +1,840 @@
+ {
+    "forecastday": [
+        {
+            "date": "2022-04-23",
+            "date_epoch": 1650672000,
+            "day": {
+                "maxtemp_c": 16.9,
+                "maxtemp_f": 62.4,
+                "mintemp_c": 9.7,
+                "mintemp_f": 49.5,
+                "avgtemp_c": 12.8,
+                "avgtemp_f": 55.0,
+                "maxwind_mph": 16.3,
+                "maxwind_kph": 26.3,
+                "totalprecip_mm": 1.0,
+                "totalprecip_in": 0.04,
+                "avgvis_km": 10.0,
+                "avgvis_miles": 6.0,
+                "avghumidity": 73.0,
+                "daily_will_it_rain": 1,
+                "daily_chance_of_rain": 85,
+                "daily_will_it_snow": 0,
+                "daily_chance_of_snow": 0,
+                "condition": {
+                    "text": "Patchy rain possible",
+                    "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+                    "code": 1063
+                },
+                "uv": 4.0
+            },
+            "astro": {
+                "sunrise": "05:48 AM",
+                "sunset": "08:10 PM",
+                "moonrise": "03:27 AM",
+                "moonset": "10:56 AM",
+                "moon_phase": "Last Quarter",
+                "moon_illumination": "40"
+            },
+            "hour": [
+                {
+                    "time_epoch": 1650668400,
+                    "time": "2022-04-23 00:00",
+                    "temp_c": 9.8,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 58
+                },
+                {
+                    "time_epoch": 1650672000,
+                    "time": "2022-04-23 01:00",
+                    "temp_c": 10.2,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 70
+                },
+                {
+                    "time_epoch": 1650675600,
+                    "time": "2022-04-23 02:00",
+                    "temp_c": 10.1,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 73
+                },
+                {
+                    "time_epoch": 1650679200,
+                    "time": "2022-04-23 03:00",
+                    "temp_c": 9.7,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 78
+                },
+                {
+                    "time_epoch": 1650682800,
+                    "time": "2022-04-23 04:00",
+                    "temp_c": 9.9,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 45
+                },
+                {
+                    "time_epoch": 1650686400,
+                    "time": "2022-04-23 05:00",
+                    "temp_c": 9.8,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 69
+                },
+                {
+                    "time_epoch": 1650690000,
+                    "time": "2022-04-23 06:00",
+                    "temp_c": 10.0,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 100
+                },
+                {
+                    "time_epoch": 1650693600,
+                    "time": "2022-04-23 07:00",
+                    "temp_c": 10.4,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 100
+                },
+                {
+                    "time_epoch": 1650697200,
+                    "time": "2022-04-23 08:00",
+                    "temp_c": 10.8,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 100
+                },
+                {
+                    "time_epoch": 1650700800,
+                    "time": "2022-04-23 09:00",
+                    "temp_c": 12.2,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 93
+                },
+                {
+                    "time_epoch": 1650704400,
+                    "time": "2022-04-23 10:00",
+                    "temp_c": 13.0,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 93
+                },
+                {
+                    "time_epoch": 1650708000,
+                    "time": "2022-04-23 11:00",
+                    "temp_c": 14.0,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 57
+                },
+                {
+                    "time_epoch": 1650711600,
+                    "time": "2022-04-23 12:00",
+                    "temp_c": 15.7,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 85
+                },
+                {
+                    "time_epoch": 1650715200,
+                    "time": "2022-04-23 13:00",
+                    "temp_c": 16.8,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 25
+                },
+                {
+                    "time_epoch": 1650718800,
+                    "time": "2022-04-23 14:00",
+                    "temp_c": 16.6,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 71
+                },
+                {
+                    "time_epoch": 1650722400,
+                    "time": "2022-04-23 15:00",
+                    "temp_c": 16.9,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 48
+                },
+                {
+                    "time_epoch": 1650726000,
+                    "time": "2022-04-23 16:00",
+                    "temp_c": 16.8,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 78
+                },
+                {
+                    "time_epoch": 1650729600,
+                    "time": "2022-04-23 17:00",
+                    "temp_c": 16.2,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 100
+                },
+                {
+                    "time_epoch": 1650733200,
+                    "time": "2022-04-23 18:00",
+                    "temp_c": 14.8,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 68
+                },
+                {
+                    "time_epoch": 1650736800,
+                    "time": "2022-04-23 19:00",
+                    "temp_c": 14.0,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 82
+                },
+                {
+                    "time_epoch": 1650740400,
+                    "time": "2022-04-23 20:00",
+                    "temp_c": 12.9,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 88
+                },
+                {
+                    "time_epoch": 1650744000,
+                    "time": "2022-04-23 21:00",
+                    "temp_c": 12.6,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 51
+                },
+                {
+                    "time_epoch": 1650747600,
+                    "time": "2022-04-23 22:00",
+                    "temp_c": 11.9,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 74
+                },
+                {
+                    "time_epoch": 1650751200,
+                    "time": "2022-04-23 23:00",
+                    "temp_c": 11.8,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 92
+                }
+            ]
+        },
+        {
+            "date": "2022-04-24",
+            "date_epoch": 1650758400,
+            "day": {
+                "maxtemp_c": 17.0,
+                "maxtemp_f": 62.6,
+                "mintemp_c": 7.9,
+                "mintemp_f": 46.2,
+                "avgtemp_c": 12.2,
+                "avgtemp_f": 54.0,
+                "maxwind_mph": 13.4,
+                "maxwind_kph": 21.6,
+                "totalprecip_mm": 0.4,
+                "totalprecip_in": 0.02,
+                "avgvis_km": 10.0,
+                "avgvis_miles": 6.0,
+                "avghumidity": 63.0,
+                "daily_will_it_rain": 1,
+                "daily_chance_of_rain": 80,
+                "daily_will_it_snow": 0,
+                "daily_chance_of_snow": 0,
+                "condition": {
+                    "text": "Patchy rain possible",
+                    "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+                    "code": 1063
+                },
+                "uv": 4.0
+            },
+            "astro": {
+                "sunrise": "05:46 AM",
+                "sunset": "08:12 PM",
+                "moonrise": "04:00 AM",
+                "moonset": "12:19 PM",
+                "moon_phase": "Last Quarter",
+                "moon_illumination": "32"
+            },
+            "hour": [
+                {
+                    "time_epoch": 1650754800,
+                    "time": "2022-04-24 00:00",
+                    "temp_c": 11.7,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 100
+                },
+                {
+                    "time_epoch": 1650758400,
+                    "time": "2022-04-24 01:00",
+                    "temp_c": 11.4,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 100
+                },
+                {
+                    "time_epoch": 1650762000,
+                    "time": "2022-04-24 02:00",
+                    "temp_c": 10.8,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 79
+                },
+                {
+                    "time_epoch": 1650765600,
+                    "time": "2022-04-24 03:00",
+                    "temp_c": 10.0,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 54
+                },
+                {
+                    "time_epoch": 1650769200,
+                    "time": "2022-04-24 04:00",
+                    "temp_c": 9.4,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 100
+                },
+                {
+                    "time_epoch": 1650772800,
+                    "time": "2022-04-24 05:00",
+                    "temp_c": 9.2,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 91
+                },
+                {
+                    "time_epoch": 1650776400,
+                    "time": "2022-04-24 06:00",
+                    "temp_c": 9.2,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 23
+                },
+                {
+                    "time_epoch": 1650780000,
+                    "time": "2022-04-24 07:00",
+                    "temp_c": 10.3,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 30
+                },
+                {
+                    "time_epoch": 1650783600,
+                    "time": "2022-04-24 08:00",
+                    "temp_c": 12.0,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 24
+                },
+                {
+                    "time_epoch": 1650787200,
+                    "time": "2022-04-24 09:00",
+                    "temp_c": 13.6,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 37
+                },
+                {
+                    "time_epoch": 1650790800,
+                    "time": "2022-04-24 10:00",
+                    "temp_c": 15.0,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 56
+                },
+                {
+                    "time_epoch": 1650794400,
+                    "time": "2022-04-24 11:00",
+                    "temp_c": 16.5,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 55
+                },
+                {
+                    "time_epoch": 1650798000,
+                    "time": "2022-04-24 12:00",
+                    "temp_c": 17.0,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 100
+                },
+                {
+                    "time_epoch": 1650801600,
+                    "time": "2022-04-24 13:00",
+                    "temp_c": 16.1,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 100
+                },
+                {
+                    "time_epoch": 1650805200,
+                    "time": "2022-04-24 14:00",
+                    "temp_c": 15.3,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 100
+                },
+                {
+                    "time_epoch": 1650808800,
+                    "time": "2022-04-24 15:00",
+                    "temp_c": 14.9,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 98
+                },
+                {
+                    "time_epoch": 1650812400,
+                    "time": "2022-04-24 16:00",
+                    "temp_c": 14.7,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 54
+                },
+                {
+                    "time_epoch": 1650816000,
+                    "time": "2022-04-24 17:00",
+                    "temp_c": 14.2,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 71
+                },
+                {
+                    "time_epoch": 1650819600,
+                    "time": "2022-04-24 18:00",
+                    "temp_c": 13.7,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 70
+                },
+                {
+                    "time_epoch": 1650823200,
+                    "time": "2022-04-24 19:00",
+                    "temp_c": 12.1,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 31
+                },
+                {
+                    "time_epoch": 1650826800,
+                    "time": "2022-04-24 20:00",
+                    "temp_c": 10.4,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 58
+                },
+                {
+                    "time_epoch": 1650830400,
+                    "time": "2022-04-24 21:00",
+                    "temp_c": 9.4,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 53
+                },
+                {
+                    "time_epoch": 1650834000,
+                    "time": "2022-04-24 22:00",
+                    "temp_c": 8.5,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 40
+                },
+                {
+                    "time_epoch": 1650837600,
+                    "time": "2022-04-24 23:00",
+                    "temp_c": 7.9,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 37
+                }
+            ]
+        },
+        {
+            "date": "2022-04-25",
+            "date_epoch": 1650844800,
+            "day": {
+                "maxtemp_c": 13.8,
+                "maxtemp_f": 56.8,
+                "mintemp_c": 5.8,
+                "mintemp_f": 42.4,
+                "avgtemp_c": 10.1,
+                "avgtemp_f": 50.1,
+                "maxwind_mph": 11.9,
+                "maxwind_kph": 19.1,
+                "totalprecip_mm": 1.7,
+                "totalprecip_in": 0.07,
+                "avgvis_km": 10.0,
+                "avgvis_miles": 6.0,
+                "avghumidity": 68.0,
+                "daily_will_it_rain": 1,
+                "daily_chance_of_rain": 81,
+                "daily_will_it_snow": 0,
+                "daily_chance_of_snow": 0,
+                "condition": {
+                    "text": "Patchy rain possible",
+                    "icon": "//cdn.weatherapi.com/weather/64x64/day/176.png",
+                    "code": 1063
+                },
+                "uv": 4.0
+            },
+            "astro": {
+                "sunrise": "05:44 AM",
+                "sunset": "08:14 PM",
+                "moonrise": "04:24 AM",
+                "moonset": "01:43 PM",
+                "moon_phase": "Last Quarter",
+                "moon_illumination": "25"
+            },
+            "hour": [
+                {
+                    "time_epoch": 1650841200,
+                    "time": "2022-04-25 00:00",
+                    "temp_c": 7.3,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 34
+                },
+                {
+                    "time_epoch": 1650844800,
+                    "time": "2022-04-25 01:00",
+                    "temp_c": 6.8,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 32
+                },
+                {
+                    "time_epoch": 1650848400,
+                    "time": "2022-04-25 02:00",
+                    "temp_c": 6.5,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 34
+                },
+                {
+                    "time_epoch": 1650852000,
+                    "time": "2022-04-25 03:00",
+                    "temp_c": 6.3,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 35
+                },
+                {
+                    "time_epoch": 1650855600,
+                    "time": "2022-04-25 04:00",
+                    "temp_c": 6.1,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 36
+                },
+                {
+                    "time_epoch": 1650859200,
+                    "time": "2022-04-25 05:00",
+                    "temp_c": 5.8,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 40
+                },
+                {
+                    "time_epoch": 1650862800,
+                    "time": "2022-04-25 06:00",
+                    "temp_c": 6.5,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 34
+                },
+                {
+                    "time_epoch": 1650866400,
+                    "time": "2022-04-25 07:00",
+                    "temp_c": 8.1,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 30
+                },
+                {
+                    "time_epoch": 1650870000,
+                    "time": "2022-04-25 08:00",
+                    "temp_c": 10.0,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 59
+                },
+                {
+                    "time_epoch": 1650873600,
+                    "time": "2022-04-25 09:00",
+                    "temp_c": 11.7,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 51
+                },
+                {
+                    "time_epoch": 1650877200,
+                    "time": "2022-04-25 10:00",
+                    "temp_c": 13.0,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 96
+                },
+                {
+                    "time_epoch": 1650880800,
+                    "time": "2022-04-25 11:00",
+                    "temp_c": 13.8,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 100
+                },
+                {
+                    "time_epoch": 1650884400,
+                    "time": "2022-04-25 12:00",
+                    "temp_c": 13.3,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 83
+                },
+                {
+                    "time_epoch": 1650888000,
+                    "time": "2022-04-25 13:00",
+                    "temp_c": 13.4,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 78
+                },
+                {
+                    "time_epoch": 1650891600,
+                    "time": "2022-04-25 14:00",
+                    "temp_c": 13.2,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 94
+                },
+                {
+                    "time_epoch": 1650895200,
+                    "time": "2022-04-25 15:00",
+                    "temp_c": 13.6,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 100
+                },
+                {
+                    "time_epoch": 1650898800,
+                    "time": "2022-04-25 16:00",
+                    "temp_c": 13.4,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 95
+                },
+                {
+                    "time_epoch": 1650902400,
+                    "time": "2022-04-25 17:00",
+                    "temp_c": 12.9,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 88
+                },
+                {
+                    "time_epoch": 1650906000,
+                    "time": "2022-04-25 18:00",
+                    "temp_c": 12.2,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 80
+                },
+                {
+                    "time_epoch": 1650909600,
+                    "time": "2022-04-25 19:00",
+                    "temp_c": 11.2,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 48
+                },
+                {
+                    "time_epoch": 1650913200,
+                    "time": "2022-04-25 20:00",
+                    "temp_c": 10.1,
+                    "is_day": 1,
+                    "condition": {
+                        
+                    },
+                    "cloud": 100
+                },
+                {
+                    "time_epoch": 1650916800,
+                    "time": "2022-04-25 21:00",
+                    "temp_c": 9.7,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 45
+                },
+                {
+                    "time_epoch": 1650920400,
+                    "time": "2022-04-25 22:00",
+                    "temp_c": 8.6,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 23
+                },
+                {
+                    "time_epoch": 1650924000,
+                    "time": "2022-04-25 23:00",
+                    "temp_c": 7.7,
+                    "is_day": 0,
+                    "condition": {
+                        
+                    },
+                    "cloud": 11
+                }
+            ],
+    }   }
+}       

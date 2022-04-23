@@ -1,0 +1,18 @@
+.day {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: ; */
+  align-items: center;
+  width: 25%;
+  background-color: white;
+  border: 1px solid rgb(200, 196, 196);
+  border-radius: 5px;
+  padding: 0px 15px;
+  box-shadow: 26px 19px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.day h5 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
