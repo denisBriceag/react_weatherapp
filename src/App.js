@@ -9,46 +9,48 @@ const weatherapi = {
 };
 
 function App() {
-  const [city, setCity] = useState("");
+  const [city, setCity] = useState("Chisinau");
   const [weather, setWeather] = useState({});
 
   useEffect(() => {
     if (!city) {
       return;
     }
-    let setTimeOut = setTimeout(() => {
-      fetch(
-        `${weatherapi.base}forecast.json?key=${weatherapi.key}&q=${city}&days=5&aqi=no&alerts=no`
-      )
-        .then((response) => {
-          return response.json();
-        })
-        .then((data) => {
-          setWeather(data);
-          console.log(data);
-        })
-        .catch((err) => {
-          console.error(err);
-        });
-    }, 1000);
-    return () => {
-      clearTimeout(setTimeOut);
-    };
+
+    fetch(
+      `${weatherapi.base}forecast.json?key=${weatherapi.key}&q=${city}&days=5&aqi=no&alerts=no`
+    )
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
+        setWeather(data);
+        console.log(data);
+      })
+      .catch((err) => {
+        console.error(err);
+      });
   }, [city]);
 
   const handleCity = (city) => setCity(city);
+
+  let content = <p className={styles.city}>Loading...</p>;
+
+  if (weather) {
+    content = (
+      <p
+        className={styles.city}
+      >{`${weather?.location?.name}, ${weather?.location?.country}`}</p>
+    );
+  }
 
   return (
     <main className={styles.maincontainer}>
       <div className={styles.title}>
         <h1>3-Day Forecast</h1>
       </div>
-      <strong>
-        <p
-          className={styles.city}
-        >{`${weather?.location?.name}, ${weather?.location?.country}`}</p>
-      </strong>
-      <Daylist weather={weather} />
+      <strong>{content}</strong>
+      {weather && <Daylist weather={weather} />}
       <Input handleCity={handleCity} />
     </main>
   );

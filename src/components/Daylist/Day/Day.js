@@ -6,7 +6,9 @@ const Day = (props) => {
     <div className={styles.day}>
       <h5>{props.weekDay}</h5>
       <p>{props.date}</p>
-      <img src={props.icon} alt="cloudy" />
+      <div className={styles.imgezoom}>
+        <img src={props.icon} alt="weather icon" />
+      </div>
       <h5>{`${props.temperature}`} &deg;C </h5>
       <p>{props.condition}</p>
     </div>

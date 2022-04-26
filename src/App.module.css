@@ -1,12 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Open+Sans:wght@300&display=swap");
+
 .maincontainer {
   width: 60%;
   margin-bottom: 20%;
   margin-left: 20%;
   margin-right: 20%;
-  border: 2px solid rgb(200, 196, 196);
-  border-radius: 5px;
+  border: none;
+  border-radius: 10px;
   padding-bottom: 15px;
   background-color: rgb(196, 244, 252);
+  font-family: "Open Sans", sans-serif;
 }
 
 .title {

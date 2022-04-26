@@ -4,7 +4,13 @@ import { FormControl } from "react-bootstrap";
 
 const Input = (props) => {
   const handleCity = (event) => {
-    props.handleCity(event.target.value);
+    // console.log(event);
+    if (event.key === "Enter") {
+      props.handleCity(event.target.value);
+    }
+    if (event.type === "blur") {
+      props.handleCity(event.target.value);
+    }
   };
 
   return (
@@ -16,7 +22,9 @@ const Input = (props) => {
         <FormControl
           type="text"
           placeholder="Enter city"
-          onChange={handleCity}
+          onBlur={handleCity}
+          onKeyDown={handleCity}
+          style={{ borderRadius: "10px", border: "1px solid blue" }}
         />
       </FormGroup>
     </div>
